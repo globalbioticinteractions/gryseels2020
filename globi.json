@@ -12,6 +12,7 @@
     "dcterms:bibliographicCitation" : "Gryseels, S., De Bruyn, L., Gyselings, R., Calvignac‐Spencer, S., Leendertz, F.H. and Leirs, H. (2020), Risk of human‐to‐wildlife transmission of SARS‐CoV‐2. Mam. Rev.. https://doi.org/10.1111/mam.12225",
     "doi": "10.1111/mam.12225",
     "sourceTaxonName": "SARS-CoV-2",
+    "sourceTaxonId": "NCBI:2697049",
     "sourceTaxonGenus": "Betacoronavirus",
     "sourceTaxonFamily": "Coronaviridae",
     "sourceTaxonOrder": "Nidovirales",
