@@ -1,0 +1,56 @@
+{
+  "@context" : [ "http://www.w3.org/ns/csvw", {
+    "@language" : "en"
+  } ],
+  "rdfs:comment" : [ "inspired by https://www.w3.org/TR/2015/REC-tabular-data-model-20151217/" ],
+  "tables" : [ {
+    "@context" : [ "http://www.w3.org/ns/csvw", {
+      "@language" : "en"
+    } ],
+    "rdfs:comment" : [ "inspired by https://www.w3.org/TR/2015/REC-tabular-data-model-20151217/" ],
+    "url" : "https://docs.google.com/spreadsheets/u/0/d/1jdWbeCoLGLLOckkJWgeQaqsAjNIiC-3HlQ601iCbWpY/export?format=csv",
+    "dcterms:bibliographicCitation" : "Gryseels, S., De Bruyn, L., Gyselings, R., Calvignac‐Spencer, S., Leendertz, F.H. and Leirs, H. (2020), Risk of human‐to‐wildlife transmission of SARS‐CoV‐2. Mam. Rev.. https://doi.org/10.1111/mam.12225",
+    "sourceTaxonName": "SARS-CoV-2",
+    "sourceTaxonGenus": "Betacoronavirus",
+    "sourceTaxonFamily": "Coronaviridae",
+    "sourceTaxonOrder": "Nidovirales",
+    "sourceTaxonClass": "Pisoniviricetes",
+    "sourceTaxonPhylum": "Pisuviricota",
+    "sourceTaxonKingdom": "Orthornavirae",
+    "sourceTaxonRealm": "Riboviria",
+    "delimiter" : ",",
+    "headerRowCount" : 1,
+    "null" : [ "" ],
+    "tableSchema" : {
+      "columns" : [ {
+        "name" : "targetTaxonOrder",
+        "titles" : "Order",
+        "datatype" : "string"
+      }, {
+        "name" : "targetTaxonFamily",
+        "titles" : "Family",
+        "datatype" : "string"
+      }, {
+        "name" : "targetTaxonSpecies",
+        "titles" : "Species",
+        "datatype" : "string"
+      }, {
+        "name" : "interactionTypeName",
+        "titles" : "Susceptible to SARS-CoV-2?",
+        "datatype" : "string"
+      }, {
+        "name" : "When infected, transmitter of SARS-CoV-2?",
+        "titles" : "When infected, transmitter of SARS-CoV-2?",
+        "datatype" : "string"
+      }, {
+        "name" : "Does SARS-CoV-2 cause disease?",
+        "titles" : "Does SARS-CoV-2 cause disease?",
+        "datatype" : "string"
+      }, {
+        "name" : "referenceCitation",
+        "titles" : "Sources",
+        "datatype" : "string"
+      } ]
+    }
+  } ]
+}
